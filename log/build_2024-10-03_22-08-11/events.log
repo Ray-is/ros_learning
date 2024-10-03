@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000602] (pog_pkg) JobQueued: {'identifier': 'pog_pkg', 'dependencies': OrderedDict()}
+[0.000794] (pog_pkg) JobStarted: {'identifier': 'pog_pkg'}
+[0.097510] (-) TimerEvent: {}
+[0.198071] (-) TimerEvent: {}
+[0.298977] (-) TimerEvent: {}
+[0.399529] (-) TimerEvent: {}
+[0.500184] (-) TimerEvent: {}
+[0.600582] (-) TimerEvent: {}
+[0.701052] (-) TimerEvent: {}
+[0.802711] (-) TimerEvent: {}
+[0.906843] (-) TimerEvent: {}
+[1.007627] (-) TimerEvent: {}
+[1.108917] (-) TimerEvent: {}
+[1.209373] (-) TimerEvent: {}
+[1.309877] (-) TimerEvent: {}
+[1.410396] (-) TimerEvent: {}
+[1.510854] (-) TimerEvent: {}
+[1.611376] (-) TimerEvent: {}
+[1.711872] (-) TimerEvent: {}
+[1.813904] (-) TimerEvent: {}
+[1.914501] (-) TimerEvent: {}
+[2.015109] (-) TimerEvent: {}
+[2.115525] (-) TimerEvent: {}
+[2.215978] (-) TimerEvent: {}
+[2.316386] (-) TimerEvent: {}
+[2.417124] (-) TimerEvent: {}
+[2.517618] (-) TimerEvent: {}
+[2.618027] (-) TimerEvent: {}
+[2.719372] (-) TimerEvent: {}
+[2.820165] (-) TimerEvent: {}
+[2.920563] (-) TimerEvent: {}
+[3.020944] (-) TimerEvent: {}
+[3.121418] (-) TimerEvent: {}
+[3.221977] (-) TimerEvent: {}
+[3.322397] (-) TimerEvent: {}
+[3.422755] (-) TimerEvent: {}
+[3.520827] (pog_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pog_pkg', 'build', '--build-base', '/ros_test/build/pog_pkg/build', 'install', '--record', '/ros_test/build/pog_pkg/install.log', '--install-scripts', '$base/lib/pog_pkg', '--single-version-externally-managed'], 'cwd': '/ros_test/src/pog_pkg', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/ros_test/install/turtlesim/lib:/ros_test/ros_tutorials/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/ros_test/src/pog_pkg', 'TERM_PROGRAM_VERSION': '1.93.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-0c4bf428-c4b0-4d2d-9172-3ddcaf3255e4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-185e3ee9-90f3-4734-95a0-36ec8dff17bd.sock', 'COLCON_PREFIX_PATH': '/ros_test/install:/ros_test/ros_tutorials/install', 'ROS_DISTRO': 'foxy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ec28a79b-fa97-4801-a983-6bae3d53ee12.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X10","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':10', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-bd2e84ded2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/ros_test/install/pog_pkg:/ros_test/install/my_package:/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim:/opt/ros/foxy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X10', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros_test/build/pog_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros_test/build/pog_pkg/prefix_override:/ros_test/install/pog_pkg/lib/python3.8/site-packages:/ros_test/install/turtlesim/lib/python3.8/site-packages:/ros_test/ros_tutorials/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_test/install/pog_pkg:/ros_test/install/my_package:/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim'}, 'shell': False}
+[3.528198] (-) TimerEvent: {}
+[3.628572] (-) TimerEvent: {}
+[3.729068] (-) TimerEvent: {}
+[3.829479] (-) TimerEvent: {}
+[3.929933] (-) TimerEvent: {}
+[4.030338] (-) TimerEvent: {}
+[4.130814] (-) TimerEvent: {}
+[4.232281] (-) TimerEvent: {}
+[4.332724] (-) TimerEvent: {}
+[4.433302] (-) TimerEvent: {}
+[4.533683] (-) TimerEvent: {}
+[4.633014] (pog_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.634066] (-) TimerEvent: {}
+[4.636177] (pog_pkg) StdoutLine: {'line': b'creating ../../build/pog_pkg/pog_pkg.egg-info\n'}
+[4.639076] (pog_pkg) StdoutLine: {'line': b'writing ../../build/pog_pkg/pog_pkg.egg-info/PKG-INFO\n'}
+[4.662308] (pog_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/pog_pkg/pog_pkg.egg-info/dependency_links.txt\n'}
+[4.667684] (pog_pkg) StdoutLine: {'line': b'writing entry points to ../../build/pog_pkg/pog_pkg.egg-info/entry_points.txt\n'}
+[4.672144] (pog_pkg) StdoutLine: {'line': b'writing requirements to ../../build/pog_pkg/pog_pkg.egg-info/requires.txt\n'}
+[4.675856] (pog_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/pog_pkg/pog_pkg.egg-info/top_level.txt\n'}
+[4.691059] (pog_pkg) StdoutLine: {'line': b"writing manifest file '../../build/pog_pkg/pog_pkg.egg-info/SOURCES.txt'\n"}
+[4.734207] (-) TimerEvent: {}
+[4.785509] (pog_pkg) StdoutLine: {'line': b"reading manifest file '../../build/pog_pkg/pog_pkg.egg-info/SOURCES.txt'\n"}
+[4.829910] (pog_pkg) StdoutLine: {'line': b"writing manifest file '../../build/pog_pkg/pog_pkg.egg-info/SOURCES.txt'\n"}
+[4.832362] (pog_pkg) StdoutLine: {'line': b'running build\n'}
+[4.833057] (pog_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.834221] (-) TimerEvent: {}
+[4.848993] (pog_pkg) StdoutLine: {'line': b'creating /ros_test/build/pog_pkg/build\n'}
+[4.850563] (pog_pkg) StdoutLine: {'line': b'creating /ros_test/build/pog_pkg/build/lib\n'}
+[4.853211] (pog_pkg) StdoutLine: {'line': b'creating /ros_test/build/pog_pkg/build/lib/pog_pkg\n'}
+[4.862438] (pog_pkg) StdoutLine: {'line': b'copying pog_pkg/publisher_member_function.py -> /ros_test/build/pog_pkg/build/lib/pog_pkg\n'}
+[4.879698] (pog_pkg) StdoutLine: {'line': b'copying pog_pkg/subscriber_member_pog.py -> /ros_test/build/pog_pkg/build/lib/pog_pkg\n'}
+[4.895368] (pog_pkg) StdoutLine: {'line': b'copying pog_pkg/__init__.py -> /ros_test/build/pog_pkg/build/lib/pog_pkg\n'}
+[4.906025] (pog_pkg) StdoutLine: {'line': b'running install\n'}
+[4.912949] (pog_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.930365] (pog_pkg) StdoutLine: {'line': b'creating /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg\n'}
+[4.934310] (-) TimerEvent: {}
+[4.944831] (pog_pkg) StdoutLine: {'line': b'copying /ros_test/build/pog_pkg/build/lib/pog_pkg/publisher_member_function.py -> /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg\n'}
+[4.973368] (pog_pkg) StdoutLine: {'line': b'copying /ros_test/build/pog_pkg/build/lib/pog_pkg/subscriber_member_pog.py -> /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg\n'}
+[4.999899] (pog_pkg) StdoutLine: {'line': b'copying /ros_test/build/pog_pkg/build/lib/pog_pkg/__init__.py -> /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg\n'}
+[5.024012] (pog_pkg) StdoutLine: {'line': b'byte-compiling /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg/publisher_member_function.py to publisher_member_function.cpython-38.pyc\n'}
+[5.034400] (-) TimerEvent: {}
+[5.063230] (pog_pkg) StdoutLine: {'line': b'byte-compiling /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg/subscriber_member_pog.py to subscriber_member_pog.cpython-38.pyc\n'}
+[5.113386] (pog_pkg) StdoutLine: {'line': b'byte-compiling /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[5.134505] (-) TimerEvent: {}
+[5.137506] (pog_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.155540] (pog_pkg) StdoutLine: {'line': b'copying resource/pog_pkg -> /ros_test/install/pog_pkg/share/ament_index/resource_index/packages\n'}
+[5.176668] (pog_pkg) StdoutLine: {'line': b'copying package.xml -> /ros_test/install/pog_pkg/share/pog_pkg\n'}
+[5.189547] (pog_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.207696] (pog_pkg) StdoutLine: {'line': b'Copying ../../build/pog_pkg/pog_pkg.egg-info to /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg-0.0.0-py3.8.egg-info\n'}
+[5.234592] (-) TimerEvent: {}
+[5.335018] (-) TimerEvent: {}
+[5.403688] (pog_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.435090] (-) TimerEvent: {}
+[5.481777] (pog_pkg) StdoutLine: {'line': b'Installing listener script to /ros_test/install/pog_pkg/lib/pog_pkg\n'}
+[5.527657] (pog_pkg) StdoutLine: {'line': b'Installing talker script to /ros_test/install/pog_pkg/lib/pog_pkg\n'}
+[5.535271] (-) TimerEvent: {}
+[5.570557] (pog_pkg) StdoutLine: {'line': b"writing list of installed files to '/ros_test/build/pog_pkg/install.log'\n"}
+[5.607378] (pog_pkg) CommandEnded: {'returncode': 0}
+[5.635398] (-) TimerEvent: {}
+[5.737266] (-) TimerEvent: {}
+[5.838529] (-) TimerEvent: {}
+[5.939322] (-) TimerEvent: {}
+[6.040773] (-) TimerEvent: {}
+[6.142167] (-) TimerEvent: {}
+[6.243159] (-) TimerEvent: {}
+[6.344586] (-) TimerEvent: {}
+[6.445189] (-) TimerEvent: {}
+[6.541086] (pog_pkg) JobEnded: {'identifier': 'pog_pkg', 'rc': 0}
+[6.580588] (-) TimerEvent: {}
+[6.580955] (-) EventReactorShutdown: {}

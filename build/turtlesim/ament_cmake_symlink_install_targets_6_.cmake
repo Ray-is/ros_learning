@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros_test/build/turtlesim/turtlesim_node" "/ros_test/build/turtlesim/turtle_teleop_key" "/ros_test/build/turtlesim/draw_square" "/ros_test/build/turtlesim/mimic" "TARGETS" "turtlesim_node" "turtle_teleop_key" "draw_square" "mimic" "DESTINATION" "lib/turtlesim")

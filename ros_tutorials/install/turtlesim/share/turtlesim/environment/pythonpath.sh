@@ -1,0 +1,1 @@
+/ros_test/ros_tutorials/build/turtlesim/ament_cmake_environment_hooks/pythonpath.sh

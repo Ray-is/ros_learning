@@ -1,0 +1,1 @@
+/ros_test/build/turtlesim/rosidl_cmake/srv/Kill_Response.msg

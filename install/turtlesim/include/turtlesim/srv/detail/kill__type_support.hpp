@@ -1,0 +1,1 @@
+/ros_test/build/turtlesim/rosidl_generator_cpp/turtlesim/srv/detail/kill__type_support.hpp

@@ -1,0 +1,1 @@
+/ros_test/ros_tutorials/build/turtlesim/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

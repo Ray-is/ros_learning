@@ -1,0 +1,2 @@
+Invoking command in '/ros_test/build/pog_pkg': PYTHONPATH=/ros_test/build/pog_pkg/prefix_override:/ros_test/install/pog_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros_test/build/pog_pkg/build --no-deps install_data
+Invoked command in '/ros_test/build/pog_pkg' returned '0': PYTHONPATH=/ros_test/build/pog_pkg/prefix_override:/ros_test/install/pog_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros_test/build/pog_pkg/build --no-deps install_data

@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/pog_pkg/pog_pkg.egg-info
+writing ../../build/pog_pkg/pog_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/pog_pkg/pog_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/pog_pkg/pog_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/pog_pkg/pog_pkg.egg-info/requires.txt
+writing top-level names to ../../build/pog_pkg/pog_pkg.egg-info/top_level.txt
+writing manifest file '../../build/pog_pkg/pog_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/pog_pkg/pog_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/pog_pkg/pog_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros_test/build/pog_pkg/build
+creating /ros_test/build/pog_pkg/build/lib
+creating /ros_test/build/pog_pkg/build/lib/pog_pkg
+copying pog_pkg/publisher_member_function.py -> /ros_test/build/pog_pkg/build/lib/pog_pkg
+copying pog_pkg/subscriber_member_pog.py -> /ros_test/build/pog_pkg/build/lib/pog_pkg
+copying pog_pkg/__init__.py -> /ros_test/build/pog_pkg/build/lib/pog_pkg
+running install
+running install_lib
+creating /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg
+copying /ros_test/build/pog_pkg/build/lib/pog_pkg/publisher_member_function.py -> /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg
+copying /ros_test/build/pog_pkg/build/lib/pog_pkg/subscriber_member_pog.py -> /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg
+copying /ros_test/build/pog_pkg/build/lib/pog_pkg/__init__.py -> /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg
+byte-compiling /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+byte-compiling /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg/subscriber_member_pog.py to subscriber_member_pog.cpython-38.pyc
+byte-compiling /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/pog_pkg -> /ros_test/install/pog_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /ros_test/install/pog_pkg/share/pog_pkg
+running install_egg_info
+Copying ../../build/pog_pkg/pog_pkg.egg-info to /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /ros_test/install/pog_pkg/lib/pog_pkg
+Installing talker script to /ros_test/install/pog_pkg/lib/pog_pkg
+writing list of installed files to '/ros_test/build/pog_pkg/install.log'

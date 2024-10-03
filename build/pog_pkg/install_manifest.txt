@@ -1,0 +1,15 @@
+/ros_test/install/pog_pkg/share/ament_index/resource_index/package_run_dependencies/pog_pkg
+/ros_test/install/pog_pkg/share/ament_index/resource_index/parent_prefix_path/pog_pkg
+/ros_test/install/pog_pkg/share/pog_pkg/environment/ament_prefix_path.sh
+/ros_test/install/pog_pkg/share/pog_pkg/environment/ament_prefix_path.dsv
+/ros_test/install/pog_pkg/share/pog_pkg/environment/path.sh
+/ros_test/install/pog_pkg/share/pog_pkg/environment/path.dsv
+/ros_test/install/pog_pkg/share/pog_pkg/local_setup.bash
+/ros_test/install/pog_pkg/share/pog_pkg/local_setup.sh
+/ros_test/install/pog_pkg/share/pog_pkg/local_setup.zsh
+/ros_test/install/pog_pkg/share/pog_pkg/local_setup.dsv
+/ros_test/install/pog_pkg/share/pog_pkg/package.dsv
+/ros_test/install/pog_pkg/share/ament_index/resource_index/packages/pog_pkg
+/ros_test/install/pog_pkg/share/pog_pkg/cmake/pog_pkgConfig.cmake
+/ros_test/install/pog_pkg/share/pog_pkg/cmake/pog_pkgConfig-version.cmake
+/ros_test/install/pog_pkg/share/pog_pkg/package.xml

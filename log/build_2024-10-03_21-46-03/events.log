@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000742] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000937] (pog_pkg) JobQueued: {'identifier': 'pog_pkg', 'dependencies': OrderedDict()}
+[0.001134] (pog_pkg) JobStarted: {'identifier': 'pog_pkg'}
+[0.096592] (-) TimerEvent: {}
+[0.200902] (-) TimerEvent: {}
+[0.237219] (pog_pkg) JobProgress: {'identifier': 'pog_pkg', 'progress': 'cmake'}
+[0.248580] (pog_pkg) Command: {'cmd': ['/usr/bin/cmake', '/ros_test/src/pog_pkg', '-DCMAKE_INSTALL_PREFIX=/ros_test/install/pog_pkg'], 'cwd': '/ros_test/build/pog_pkg', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/ros_test/install/turtlesim/lib:/ros_test/ros_tutorials/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/ros_test/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0c4bf428-c4b0-4d2d-9172-3ddcaf3255e4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-185e3ee9-90f3-4734-95a0-36ec8dff17bd.sock'), ('COLCON_PREFIX_PATH', '/ros_test/install:/ros_test/ros_tutorials/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ec28a79b-fa97-4801-a983-6bae3d53ee12.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X10","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':10'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-bd2e84ded2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros_test/build/pog_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros_test/install/turtlesim/lib/python3.8/site-packages:/ros_test/ros_tutorials/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[0.301046] (-) TimerEvent: {}
+[0.401810] (-) TimerEvent: {}
+[0.518741] (-) TimerEvent: {}
+[0.673640] (-) TimerEvent: {}
+[0.777342] (-) TimerEvent: {}
+[0.878658] (-) TimerEvent: {}
+[0.979151] (-) TimerEvent: {}
+[1.079853] (-) TimerEvent: {}
+[1.180345] (-) TimerEvent: {}
+[1.280851] (-) TimerEvent: {}
+[1.381308] (-) TimerEvent: {}
+[1.481808] (-) TimerEvent: {}
+[1.582410] (-) TimerEvent: {}
+[1.682919] (-) TimerEvent: {}
+[1.784302] (-) TimerEvent: {}
+[1.884982] (-) TimerEvent: {}
+[1.919353] (pog_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.985093] (-) TimerEvent: {}
+[2.085527] (-) TimerEvent: {}
+[2.186077] (-) TimerEvent: {}
+[2.286568] (-) TimerEvent: {}
+[2.387077] (-) TimerEvent: {}
+[2.487615] (-) TimerEvent: {}
+[2.503575] (pog_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.587906] (-) TimerEvent: {}
+[2.629509] (pog_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.688034] (-) TimerEvent: {}
+[2.788854] (-) TimerEvent: {}
+[2.893872] (-) TimerEvent: {}
+[2.995476] (-) TimerEvent: {}
+[3.097138] (-) TimerEvent: {}
+[3.197903] (-) TimerEvent: {}
+[3.299528] (-) TimerEvent: {}
+[3.400369] (-) TimerEvent: {}
+[3.502114] (-) TimerEvent: {}
+[3.603352] (-) TimerEvent: {}
+[3.703976] (-) TimerEvent: {}
+[3.804690] (-) TimerEvent: {}
+[3.905456] (-) TimerEvent: {}
+[4.006011] (-) TimerEvent: {}
+[4.106517] (-) TimerEvent: {}
+[4.207029] (-) TimerEvent: {}
+[4.307470] (-) TimerEvent: {}
+[4.408173] (-) TimerEvent: {}
+[4.508714] (-) TimerEvent: {}
+[4.609216] (-) TimerEvent: {}
+[4.709712] (-) TimerEvent: {}
+[4.781379] (pog_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.786442] (pog_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.809828] (-) TimerEvent: {}
+[4.910339] (-) TimerEvent: {}
+[5.011177] (-) TimerEvent: {}
+[5.112328] (-) TimerEvent: {}
+[5.214109] (-) TimerEvent: {}
+[5.316162] (-) TimerEvent: {}
+[5.417643] (-) TimerEvent: {}
+[5.518070] (-) TimerEvent: {}
+[5.618711] (-) TimerEvent: {}
+[5.719165] (-) TimerEvent: {}
+[5.821112] (-) TimerEvent: {}
+[5.922032] (-) TimerEvent: {}
+[6.022585] (-) TimerEvent: {}
+[6.123001] (-) TimerEvent: {}
+[6.223399] (-) TimerEvent: {}
+[6.323892] (-) TimerEvent: {}
+[6.424362] (-) TimerEvent: {}
+[6.524861] (-) TimerEvent: {}
+[6.626709] (-) TimerEvent: {}
+[6.727157] (-) TimerEvent: {}
+[6.827588] (-) TimerEvent: {}
+[6.831960] (pog_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.867891] (pog_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.868619] (pog_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.914650] (pog_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.927804] (-) TimerEvent: {}
+[7.034229] (-) TimerEvent: {}
+[7.135136] (-) TimerEvent: {}
+[7.235648] (-) TimerEvent: {}
+[7.336599] (-) TimerEvent: {}
+[7.437099] (-) TimerEvent: {}
+[7.537593] (-) TimerEvent: {}
+[7.640825] (-) TimerEvent: {}
+[7.741908] (-) TimerEvent: {}
+[7.842561] (-) TimerEvent: {}
+[7.946925] (-) TimerEvent: {}
+[8.047664] (-) TimerEvent: {}
+[8.148114] (-) TimerEvent: {}
+[8.248619] (-) TimerEvent: {}
+[8.349065] (-) TimerEvent: {}
+[8.449682] (-) TimerEvent: {}
+[8.550168] (-) TimerEvent: {}
+[8.650636] (-) TimerEvent: {}
+[8.751079] (-) TimerEvent: {}
+[8.851565] (-) TimerEvent: {}
+[8.952130] (-) TimerEvent: {}
+[8.969965] (pog_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[8.973768] (pog_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.052335] (-) TimerEvent: {}
+[9.153146] (-) TimerEvent: {}
+[9.256361] (-) TimerEvent: {}
+[9.356998] (-) TimerEvent: {}
+[9.457478] (-) TimerEvent: {}
+[9.557996] (-) TimerEvent: {}
+[9.658376] (-) TimerEvent: {}
+[9.758766] (-) TimerEvent: {}
+[9.862498] (-) TimerEvent: {}
+[9.963498] (-) TimerEvent: {}
+[10.066044] (-) TimerEvent: {}
+[10.166592] (-) TimerEvent: {}
+[10.267014] (-) TimerEvent: {}
+[10.367516] (-) TimerEvent: {}
+[10.467949] (-) TimerEvent: {}
+[10.569685] (-) TimerEvent: {}
+[10.673086] (-) TimerEvent: {}
+[10.774486] (-) TimerEvent: {}
+[10.875133] (-) TimerEvent: {}
+[10.975551] (-) TimerEvent: {}
+[11.008987] (pog_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.033587] (pog_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.037073] (pog_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.075698] (-) TimerEvent: {}
+[11.176471] (-) TimerEvent: {}
+[11.183891] (pog_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[11.276584] (-) TimerEvent: {}
+[11.376980] (-) TimerEvent: {}
+[11.477538] (-) TimerEvent: {}
+[11.582383] (-) TimerEvent: {}
+[11.597584] (pog_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[11.598200] (pog_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.682489] (-) TimerEvent: {}
+[11.782847] (-) TimerEvent: {}
+[11.883220] (-) TimerEvent: {}
+[11.983687] (-) TimerEvent: {}
+[12.084184] (-) TimerEvent: {}
+[12.184675] (-) TimerEvent: {}
+[12.285312] (-) TimerEvent: {}
+[12.386537] (-) TimerEvent: {}
+[12.487526] (-) TimerEvent: {}
+[12.588015] (-) TimerEvent: {}
+[12.688408] (-) TimerEvent: {}
+[12.788985] (-) TimerEvent: {}
+[12.890150] (-) TimerEvent: {}
+[12.990805] (-) TimerEvent: {}
+[13.091344] (-) TimerEvent: {}
+[13.191829] (-) TimerEvent: {}
+[13.274565] (pog_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[13.291894] (-) TimerEvent: {}
+[13.392277] (-) TimerEvent: {}
+[13.492733] (-) TimerEvent: {}
+[13.593200] (-) TimerEvent: {}
+[13.693636] (-) TimerEvent: {}
+[13.794077] (-) TimerEvent: {}
+[13.895192] (-) TimerEvent: {}
+[13.995944] (-) TimerEvent: {}
+[14.096525] (-) TimerEvent: {}
+[14.198715] (-) TimerEvent: {}
+[14.299441] (-) TimerEvent: {}
+[14.399869] (-) TimerEvent: {}
+[14.500318] (-) TimerEvent: {}
+[14.600744] (-) TimerEvent: {}
+[14.611324] (pog_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.700878] (-) TimerEvent: {}
+[14.801610] (-) TimerEvent: {}
+[14.902426] (-) TimerEvent: {}
+[15.003019] (-) TimerEvent: {}
+[15.103567] (-) TimerEvent: {}
+[15.204725] (-) TimerEvent: {}
+[15.251871] (pog_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.304828] (-) TimerEvent: {}
+[15.405301] (-) TimerEvent: {}
+[15.470268] (pog_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.505570] (-) TimerEvent: {}
+[15.603821] (pog_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.605697] (-) TimerEvent: {}
+[15.706176] (-) TimerEvent: {}
+[15.808372] (-) TimerEvent: {}
+[15.911022] (-) TimerEvent: {}
+[16.011550] (-) TimerEvent: {}
+[16.112159] (-) TimerEvent: {}
+[16.163283] (pog_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[16.212387] (-) TimerEvent: {}
+[16.276217] (pog_pkg) StdoutLine: {'line': b'-- Build files have been written to: /ros_test/build/pog_pkg\n'}
+[16.281350] (pog_pkg) CommandEnded: {'returncode': 0}
+[16.285674] (pog_pkg) JobProgress: {'identifier': 'pog_pkg', 'progress': 'build'}
+[16.291093] (pog_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros_test/build/pog_pkg', '--', '-j20', '-l20'], 'cwd': '/ros_test/build/pog_pkg', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/ros_test/install/turtlesim/lib:/ros_test/ros_tutorials/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/ros_test/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0c4bf428-c4b0-4d2d-9172-3ddcaf3255e4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-185e3ee9-90f3-4734-95a0-36ec8dff17bd.sock'), ('COLCON_PREFIX_PATH', '/ros_test/install:/ros_test/ros_tutorials/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ec28a79b-fa97-4801-a983-6bae3d53ee12.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X10","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':10'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-bd2e84ded2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros_test/build/pog_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros_test/install/turtlesim/lib/python3.8/site-packages:/ros_test/ros_tutorials/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[16.312486] (-) TimerEvent: {}
+[16.413054] (-) TimerEvent: {}
+[16.517379] (-) TimerEvent: {}
+[16.618075] (-) TimerEvent: {}
+[16.718597] (-) TimerEvent: {}
+[16.819071] (-) TimerEvent: {}
+[16.919516] (-) TimerEvent: {}
+[17.020200] (-) TimerEvent: {}
+[17.121280] (-) TimerEvent: {}
+[17.226638] (-) TimerEvent: {}
+[17.327450] (-) TimerEvent: {}
+[17.428711] (-) TimerEvent: {}
+[17.529185] (-) TimerEvent: {}
+[17.629917] (-) TimerEvent: {}
+[17.730517] (-) TimerEvent: {}
+[17.835434] (-) TimerEvent: {}
+[17.946214] (-) TimerEvent: {}
+[18.046678] (-) TimerEvent: {}
+[18.147377] (-) TimerEvent: {}
+[18.229198] (pog_pkg) CommandEnded: {'returncode': 0}
+[18.247515] (-) TimerEvent: {}
+[18.347969] (-) TimerEvent: {}
+[18.448577] (-) TimerEvent: {}
+[18.549264] (-) TimerEvent: {}
+[18.650291] (-) TimerEvent: {}
+[18.751337] (-) TimerEvent: {}
+[18.852160] (-) TimerEvent: {}
+[18.952577] (-) TimerEvent: {}
+[19.053044] (-) TimerEvent: {}
+[19.153465] (-) TimerEvent: {}
+[19.253784] (-) TimerEvent: {}
+[19.322423] (pog_pkg) JobProgress: {'identifier': 'pog_pkg', 'progress': 'install'}
+[19.353956] (-) TimerEvent: {}
+[19.454491] (-) TimerEvent: {}
+[19.555100] (-) TimerEvent: {}
+[19.584848] (pog_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros_test/build/pog_pkg'], 'cwd': '/ros_test/build/pog_pkg', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/ros_test/install/turtlesim/lib:/ros_test/ros_tutorials/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/ros_test/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0c4bf428-c4b0-4d2d-9172-3ddcaf3255e4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-185e3ee9-90f3-4734-95a0-36ec8dff17bd.sock'), ('COLCON_PREFIX_PATH', '/ros_test/install:/ros_test/ros_tutorials/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ec28a79b-fa97-4801-a983-6bae3d53ee12.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X10","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':10'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-bd2e84ded2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim:/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros_test/build/pog_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros_test/install/turtlesim/lib/python3.8/site-packages:/ros_test/ros_tutorials/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_test/install/turtlesim:/ros_test/ros_tutorials/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[19.655212] (-) TimerEvent: {}
+[19.755655] (-) TimerEvent: {}
+[19.806219] (pog_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.855763] (-) TimerEvent: {}
+[19.953701] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/ament_index/resource_index/package_run_dependencies/pog_pkg\n'}
+[19.955907] (-) TimerEvent: {}
+[20.056645] (-) TimerEvent: {}
+[20.067669] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/ament_index/resource_index/parent_prefix_path/pog_pkg\n'}
+[20.154493] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/environment/ament_prefix_path.sh\n'}
+[20.156721] (-) TimerEvent: {}
+[20.209015] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/environment/ament_prefix_path.dsv\n'}
+[20.256649] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/environment/path.sh\n'}
+[20.257322] (-) TimerEvent: {}
+[20.303551] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/environment/path.dsv\n'}
+[20.357433] (-) TimerEvent: {}
+[20.357843] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/local_setup.bash\n'}
+[20.403602] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/local_setup.sh\n'}
+[20.452655] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/local_setup.zsh\n'}
+[20.457539] (-) TimerEvent: {}
+[20.499020] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/local_setup.dsv\n'}
+[20.545692] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/package.dsv\n'}
+[20.557627] (-) TimerEvent: {}
+[20.611907] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/ament_index/resource_index/packages/pog_pkg\n'}
+[20.657734] (-) TimerEvent: {}
+[20.687077] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/cmake/pog_pkgConfig.cmake\n'}
+[20.740051] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/cmake/pog_pkgConfig-version.cmake\n'}
+[20.757827] (-) TimerEvent: {}
+[20.803677] (pog_pkg) StdoutLine: {'line': b'-- Installing: /ros_test/install/pog_pkg/share/pog_pkg/package.xml\n'}
+[20.857967] (-) TimerEvent: {}
+[20.963311] (-) TimerEvent: {}
+[21.066835] (-) TimerEvent: {}
+[21.167881] (-) TimerEvent: {}
+[21.179418] (pog_pkg) CommandEnded: {'returncode': 0}
+[21.268112] (-) TimerEvent: {}
+[21.369625] (-) TimerEvent: {}
+[21.471098] (-) TimerEvent: {}
+[21.571606] (-) TimerEvent: {}
+[21.672078] (-) TimerEvent: {}
+[21.772904] (-) TimerEvent: {}
+[21.873602] (-) TimerEvent: {}
+[21.974109] (-) TimerEvent: {}
+[22.076740] (-) TimerEvent: {}
+[22.177524] (-) TimerEvent: {}
+[22.279562] (-) TimerEvent: {}
+[22.380710] (-) TimerEvent: {}
+[22.482441] (-) TimerEvent: {}
+[22.582866] (-) TimerEvent: {}
+[22.683488] (-) TimerEvent: {}
+[22.783888] (-) TimerEvent: {}
+[22.884302] (-) TimerEvent: {}
+[22.984760] (-) TimerEvent: {}
+[23.085130] (-) TimerEvent: {}
+[23.169945] (pog_pkg) JobEnded: {'identifier': 'pog_pkg', 'rc': 0}
+[23.203388] (-) TimerEvent: {}
+[23.203976] (-) EventReactorShutdown: {}

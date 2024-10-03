@@ -1,0 +1,6 @@
+Invoking command in '/ros_test/build/pog_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /ros_test/src/pog_pkg -DCMAKE_INSTALL_PREFIX=/ros_test/install/pog_pkg
+Invoked command in '/ros_test/build/pog_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /ros_test/src/pog_pkg -DCMAKE_INSTALL_PREFIX=/ros_test/install/pog_pkg
+Invoking command in '/ros_test/build/pog_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /ros_test/build/pog_pkg -- -j20 -l20
+Invoked command in '/ros_test/build/pog_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /ros_test/build/pog_pkg -- -j20 -l20
+Invoking command in '/ros_test/build/pog_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /ros_test/build/pog_pkg
+Invoked command in '/ros_test/build/pog_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /ros_test/build/pog_pkg

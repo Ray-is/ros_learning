@@ -1,0 +1,8 @@
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/ros_test/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

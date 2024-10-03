@@ -1,0 +1,1 @@
+/ros_test/ros_tutorials/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,1 @@
+/ros_test/build/turtlesim/ament_cmake_core/turtlesimConfig-version.cmake

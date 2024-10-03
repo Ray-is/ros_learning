@@ -1,0 +1,1 @@
+/ros_test/ros_tutorials/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/color__type_support.hpp

@@ -1,0 +1,19 @@
+[3.431s] Invoking command in '/ros_test/build/pog_pkg': PYTHONPATH=/ros_test/build/pog_pkg/prefix_override:/ros_test/install/pog_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros_test/build/pog_pkg/build --no-deps install_data
+[4.616s] running develop
+[4.844s] running egg_info
+[4.845s] writing pog_pkg.egg-info/PKG-INFO
+[4.849s] writing dependency_links to pog_pkg.egg-info/dependency_links.txt
+[4.851s] writing entry points to pog_pkg.egg-info/entry_points.txt
+[4.854s] writing requirements to pog_pkg.egg-info/requires.txt
+[4.856s] writing top-level names to pog_pkg.egg-info/top_level.txt
+[4.934s] reading manifest file 'pog_pkg.egg-info/SOURCES.txt'
+[4.984s] writing manifest file 'pog_pkg.egg-info/SOURCES.txt'
+[5.120s] running build_ext
+[5.123s] Creating /ros_test/install/pog_pkg/lib/python3.8/site-packages/site.py
+[5.185s] Creating /ros_test/install/pog_pkg/lib/python3.8/site-packages/pog-pkg.egg-link (link to .)
+[5.208s] Installing listener script to /ros_test/install/pog_pkg/lib/pog_pkg
+[5.255s] Installing talker script to /ros_test/install/pog_pkg/lib/pog_pkg
+[5.302s] 
+[5.304s] Installed /ros_test/build/pog_pkg
+[5.309s] running install_data
+[5.375s] Invoked command in '/ros_test/build/pog_pkg' returned '0': PYTHONPATH=/ros_test/build/pog_pkg/prefix_override:/ros_test/install/pog_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros_test/build/pog_pkg/build --no-deps install_data

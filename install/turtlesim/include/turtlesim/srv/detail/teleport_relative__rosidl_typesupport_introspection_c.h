@@ -1,0 +1,1 @@
+/ros_test/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
